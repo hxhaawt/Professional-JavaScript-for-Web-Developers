@@ -20,6 +20,7 @@ addLoadEven(myFunction);
 
 function myFunction() {
 
+    alert("Hello");
 }
 
 

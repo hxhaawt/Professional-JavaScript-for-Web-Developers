@@ -20,7 +20,12 @@ addLoadEven(myFunction);
 
 function myFunction() {
 
-    alert("Hello");
+    // var div1 = document.getElementById("div1");
+    // div1.style.color = "red";
+    // div1.style.border = "2px solid green";
+
+
+
 }
 
 

@@ -5,6 +5,11 @@
 	<title>Title</title>
 	<link href="12-01.css" rel="stylesheet" type="text/css">
 	<script src="12-01.js"></script>
+	<script type="text/javascript">
+		function showHi() {
+			alert("Hi");
+		}
+	</script>
 </head>
 <body>
 	<div id="div1" class="test" >
@@ -21,6 +26,20 @@
 		</p>
 		
 	</div>
+
+	<!--<input type="button" value="click me" onclick="alert('Hello, World')">-->
+	<!--<input type="button" value="click me" onclick="showHi()">-->
+
+	<input type="button" value="click me" onclick="alert(event.type)">
+	<input type="button" value="click me" onclick="alert(this.value)">
+	<br>
+
+	<form>
+		<input type="text" name="userName" value="one">
+		<input type="button" value="showText" onclick="alert(userName.value)">
+	</form>
+
+
 
 </body>
 </html>

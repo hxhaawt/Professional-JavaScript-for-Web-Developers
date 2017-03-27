@@ -24,7 +24,13 @@ function myFunction() {
     // div1.style.color = "red";
     // div1.style.border = "2px solid green";
 
+    // var foo = function bar(){ return 12; };
+    // typeof bar();
 
+    // var myDiv = document.createElement('div');
+    // for(var k in myDiv ){
+    //     console.log(k)
+    // }
 
 }
 

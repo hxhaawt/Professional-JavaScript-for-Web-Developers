@@ -83,7 +83,15 @@ function myTest() {
     // }, false);
     */
 
-
+    // (function () {
+    //     var showCount = 0;
+    //
+    //     window.addEventListener("pageshow", function () {
+    //         showCount++;
+    //         alert(showCount + "persisted: " + event.persisted);
+    //     }, false);
+    //
+    // })();
 
 
 }

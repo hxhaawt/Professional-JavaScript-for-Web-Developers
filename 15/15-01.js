@@ -124,7 +124,33 @@ function myFunction() {
         gradient.addColorStop(1, "black");
         context4.fillStyle = gradient;
         context4.fillRect(30, 30, 50, 50);
+    }
 
+    var drawing5 = document.getElementById("drawing5");
+    if (drawing5.getContext){
+
+        var context5 = drawing5.getContext("2d");
+        context5.fillStyle = "#FF0000";
+        context5.fillRect(10, 10, 50, 50);
+
+        // 设置全局透明度
+        context5.globalAlpha = 0.3;
+
+        context5.fillStyle = "#0000FF";
+        // 全局透明度与局部透明度 都有值时，只取数值小的那个值
+        context5.fillStyle = "rgba(0, 0, 255, 1)";
+        context5.fillRect(30, 30, 50, 50);
+
+        context5.globalAlpha = 0.6;
+        context5.fillStyle = "#0000FF";
+        context5.fillRect(60, 60, 50, 50);
+
+        // 重置全局透明度--0为全透明；1--不透明
+        context5.globalAlpha = 0.1;
+        context5.fillStyle = "rgba(0, 0, 255, 0.8)";
+        context5.fillRect(90, 90, 50, 50);
+
+        context5.globalAlpha = 1;
     }
 
 }

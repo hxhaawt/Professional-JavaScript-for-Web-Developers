@@ -44,13 +44,29 @@ function myFunction() {
     console.log(int16s.length);
 
     // var string = "";
-    // for (var i=257; i<290; i++){
+    // for (var i=283; i<310; i++){
     //     string = "http://player.iboav.com/media/videos/iphone/"+i+"/mp4/"+i+".mp4";
     //     document.write("<br/>" + string);
     // }
 
+    var aTag = document.body.getElementsByTagName("a");
+    alert(aTag.length);
+    // alert(aTag[1].nodeType);
+    // alert(aTag[2].nodeType);
 
+    for (var i=0, len=aTag.length-1; i<len; i++){
+        if (aTag[i].nodeType == 1){
+            // document.writeln(aTag[i].href + "  " + aTag[i].innerHTML);
+        }
+    }
 }
+
+
+
+
+
+
+
 
 
 

@@ -2,6 +2,7 @@
  * Created by hxh on 2017/4/10.
  */
 
+
 window.onload = myTest;
 
 function myTest() {
@@ -26,5 +27,25 @@ function myTest() {
     //     console.log(error.message);
     // }
 
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
